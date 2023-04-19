@@ -1,0 +1,24 @@
+/*
+ * SPI_private.h
+ *
+ *  Created on: Apr 13, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef SPI_PRIVATE_H_
+#define SPI_PRIVATE_H_
+
+/*================== Macros ==================*/
+#define SPI_BASE_ADDRESS	0x2D
+
+typedef struct
+{
+	volatile u8 SPCR;
+	volatile u8 SPSR;
+	volatile u8 SPDR;
+
+}SPI_INT;
+
+#define SPI ((volatile SPI_INT *) SPI_BASE_ADDRESS)
+
+#endif /* SPI_PRIVATE_H_ */

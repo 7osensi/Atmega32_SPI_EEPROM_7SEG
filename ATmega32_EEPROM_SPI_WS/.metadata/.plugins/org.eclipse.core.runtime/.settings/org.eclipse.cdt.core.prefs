@@ -1,0 +1,5 @@
+build.all.configs.enabled=false
+config/Atmega32_EEPROM_SPI/cdt.toolChain.id=gcc-arm-C\:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
+config/Atmega32_EEPROM_SPI/cdt.toolChain.type=org.eclipse.cdt.build.gcc
+eclipse.preferences.version=1
+macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<macros/>\r\n

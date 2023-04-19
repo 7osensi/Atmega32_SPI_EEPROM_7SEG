@@ -1,0 +1,82 @@
+/*
+ * SPI_program.C
+ *
+ *  Created on: Apr 13, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+
+#include "DIO_interface.h"
+
+#include "SPI_interface.h"
+#include "SPI_private.h"
+#include "SPI_config.h"
+
+/*=========================== Start_Function ===========================*/
+void MSPI_voidIntialize(void)
+{
+	/* Master/Slave Select */
+	#if SPI_MODE == MASTER
+
+		MDIO_voidSetPinMode(GPIOB, MOSI_PIN, OUTPUT); 	/* MOSI Enable as output 	*/
+		MDIO_voidSetPinMode(GPIOB, SS_PIN, OUTPUT); 	/* SS Enable as output 		*/
+		MDIO_voidSetPinMode(GPIOB, SCK_PIN, OUTPUT); 	/* SCK Enable as output 	*/
+
+		SET_BIT(SPI->SPCR, 4); 							/* Master 					*/
+
+		/*  Clock Phase */
+		CLR_BIT(SPI->SPCR, 2); 							/* Sample on leading edge 	*/
+
+		/* Clock Polarity */
+		CLR_BIT(SPI->SPCR, 3); 							/* SCK is high when idle 	*/
+
+		/* Data Order */
+		CLR_BIT(SPI->SPCR, 5); 							/* MSB first 				*/
+
+		/* SPI Interrupt Enable */
+		#if SPI_INT == ENABLE
+			SET_BIT(SPI->SPCR, 7); 						/* SPI interrupt enable 	*/
+		#elif SPI_INT == DISABLE
+			CLR_BIT(SPI->SPCR, 7); 						/* SPI interrupt disable 	*/
+		#endif
+
+		/* Clear flag */
+		CLR_BIT(SPI->SPSR, 7);
+		/* SPI Enable */
+		SET_BIT(SPI->SPCR, 6); 							/* SPI enable 				*/
+
+	#elif SPI_MODE == SLAVE
+		CLR_BIT(SPI->SPCR, 4); 							/* Slave 					*/
+
+		MDIO_voidSetPinMode(GPIOB, MISO_PIN, OUTPUT); 	/* MISO Enable as output    */
+
+		/*  Clock Phase */
+		CLR_BIT(SPI->SPCR, 2); 							/* Sample on leading edge 	*/
+
+		/* Clock Polarity */
+		SET_BIT(SPI->SPCR, 3); 							/* SCK is high when idle 	*/
+
+		/* Data Order */
+		CLR_BIT(SPI->SPCR, 5); 							/* MSB first 				*/
+
+	#endif
+}
+/*============================ End_Function ============================*/
+/*=========================== Start_Function ===========================*/
+u8 MSPI_voidSendData(u8 copy_u8Data)
+{
+
+	SPI->SPDR = copy_u8Data;
+	while(GET_BIT(SPI->SPSR, 7) == 0);
+	return SPI->SPDR;
+}
+/*============================ End_Function ============================*/
+/*=========================== Start_Function ===========================*/
+u8 MSPI_voidRecieveData(void)
+{
+	while(GET_BIT(SPI->SPSR, 7) == 0);
+ 	return SPI->SPDR;
+}
+/*============================ End_Function ============================*/

@@ -1,0 +1,24 @@
+/*
+ * SevenSegment_program.c
+ *
+ *  Created on: Apr 19, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#include "DIO_interface.h"
+#include "SevenSegment_interface.h"
+
+
+void HSSD_voidSSDInit(void)
+{
+	MDIO_voidSetPortMode(GPIOC, OUTPUT);
+}
+void HSSD_voidOneSevenSegment(u8 copy_u8Num)
+{
+	MDIO_voidSetPortValue(GPIOC, copy_u8Num);
+//	switch(copy_u8Num)
+//	{
+//		case '0':
+//
+//	}
+}

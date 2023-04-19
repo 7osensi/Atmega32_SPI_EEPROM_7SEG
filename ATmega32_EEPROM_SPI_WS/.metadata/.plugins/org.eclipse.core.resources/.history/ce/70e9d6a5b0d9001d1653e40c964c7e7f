@@ -1,0 +1,50 @@
+/*
+ * DIO_prog.c
+ *
+ *  Created on: Apr 13, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+
+#include "DIO_interface.h"
+#include "DIO_private.h"
+#include "DIO_config.h"
+
+/*=========================== Start_Function =========================== */
+void MDIO_voidSetPinMode(u8 copy_u8PortId, u8 copy_u8PinId, u8 copy_u8PinMode)
+{
+	if(copy_u8PinMode == OUTPUT)
+	{
+		switch(copy_u8PortId)
+		{
+			case GPIOA:
+				DIO->DDRA |= (1 << copy_u8PinId);	break;
+			case GPIOB:
+				DIO->DDRB |= (1 << copy_u8PinId);	break;
+			case GPIOC:
+				DIO->DDRC |= (1 << copy_u8PinId);	break;
+			case GPIOD:
+				DIO->DDRD |= (1 << copy_u8PinId);	break;
+			default:								break;
+		}
+	}
+	else if(copy_u8PinMode == INPUT)
+	{
+		switch(copy_u8PortId)
+		{
+			case GPIOA:
+				DIO->DDRA &= ~(1 << copy_u8PinId);	break;
+			case GPIOB:
+				DIO->DDRB &= ~(1 << copy_u8PinId);	break;
+			case GPIOC:
+				DIO->DDRC &= ~(1 << copy_u8PinId);	break;
+			case GPIOD:
+				DIO->DDRD &= ~(1 << copy_u8PinId);	break;
+			default:								break;
+		}
+	}
+}
+
+

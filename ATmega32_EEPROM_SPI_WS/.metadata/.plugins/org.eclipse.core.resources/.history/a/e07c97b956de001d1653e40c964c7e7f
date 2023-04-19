@@ -1,0 +1,13 @@
+/*
+ * SevenSegment_interface.h
+ *
+ *  Created on: Apr 19, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef SEVENSEGMENT_INTERFACE_H_
+#define SEVENSEGMENT_INTERFACE_H_
+
+void HSS_voidOneSevenSegment();
+
+#endif /* SEVENSEGMENT_INTERFACE_H_ */

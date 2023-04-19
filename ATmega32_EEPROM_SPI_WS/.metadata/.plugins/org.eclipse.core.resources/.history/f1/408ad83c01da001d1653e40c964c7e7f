@@ -1,0 +1,20 @@
+/*
+ * SPI_interface.h
+ *
+ *  Created on: Apr 13, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef SPI_INTERFACE_H_
+#define SPI_INTERFACE_H_
+
+void MSPI_voidIntialize(u8 copy_u8Mode);
+
+void MSPI_voidSendData(u8 copy_u8Data);
+
+u8 MSPI_voidRecieveData(void);
+
+#define M    0
+#define S    1
+
+#endif /* SPI_INTERFACE_H_ */

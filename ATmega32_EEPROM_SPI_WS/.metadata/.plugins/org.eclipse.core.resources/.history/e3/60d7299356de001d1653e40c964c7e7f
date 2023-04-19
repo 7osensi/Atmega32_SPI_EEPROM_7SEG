@@ -1,0 +1,14 @@
+/*
+ * SevenSegment_program.c
+ *
+ *  Created on: Apr 19, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#include "SevenSegment_interface.h"
+
+void HSS_voidOneSevenSegment(u8 copy_u8Num)
+{
+
+
+}

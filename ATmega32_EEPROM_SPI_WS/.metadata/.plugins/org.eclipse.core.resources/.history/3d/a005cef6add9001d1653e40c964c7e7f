@@ -1,0 +1,19 @@
+/*
+ * BIT_MATH.h
+ *
+ *  Created on: Apr 13, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef BIT_MATH_H_
+#define BIT_MATH_H_
+
+#define	SET_BIT(REG, BIT)	REG |= (1 << BIT);
+
+#define	CLR_BIT(REG, BIT)	REG &= ~(1 << BIT);
+
+#define	SET_BIT(REG, BIT)	REG |= (1 << BIT);
+
+
+
+#endif /* BIT_MATH_H_ */

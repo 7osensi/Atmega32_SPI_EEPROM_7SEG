@@ -1,0 +1,93 @@
+/*
+ * EEPROM_program.c
+ *
+ *  Created on: Apr 17, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#include <util/delay.h>
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+
+#include "SPI_interface.h"
+#include "SPI_private.h"
+#include "DIO_interface.h"
+
+#include "EEPROM_interface.h"
+#include "EEPROM_private.h"
+#include "EEPROM_config.h"
+
+/* Write sequence
+ * 1. Instruction	: 0b0000 0010
+ * 2. Address byte  : 0bxAAA AAAA
+ * 3. Data byte   	: 0b7654 3210
+ * x: Don't care.
+ *  */
+void HEEPROM_voidSendData(u16 copy_u16Address, u8 copy_u8Data)
+{
+	 MDIO_voidSetPinValue(GPIOB, SS_PIN, HIGH);
+	 MDIO_voidSetPinValue(GPIOB, SS_PIN, LOW);
+
+	 /* Write enable (WREN): 0b0000 0110 */
+	 MSPI_voidSendData(0x06);
+
+	 MDIO_voidSetPinValue(GPIOB, SS_PIN, HIGH);
+
+     _delay_ms(5);
+
+	 MDIO_voidSetPinValue(GPIOB, SS_PIN, LOW);
+
+	 /* Write data to memory array beginning at selected address
+	  *  Instruction Format: 0b0000 0010 */
+	 MSPI_voidSendData(0x02);
+
+	 MSPI_voidSendData(copy_u16Address);
+	 MSPI_voidSendData(copy_u8Data);
+
+	 MDIO_voidSetPinValue(GPIOB, SS_PIN, HIGH);
+
+	 _delay_ms(5);
+}
+
+void HEEPROM_voidSend16Bytes(u16 copy_u16Address, u8 *copy_u8Data)
+{
+	u8 local_u8Counter = 0;
+
+	MDIO_voidSetPinValue(GPIOB, SS_PIN, HIGH);
+	MDIO_voidSetPinValue(GPIOB, SS_PIN, LOW);
+
+	/* Write enable (WREN): 0b0000 0110 */
+	MSPI_voidSendData(0x06);
+
+	MDIO_voidSetPinValue(GPIOB, SS_PIN, HIGH);
+
+    _delay_ms(5);
+
+	MDIO_voidSetPinValue(GPIOB, SS_PIN, LOW);
+
+	/* Write data to memory array beginning at selected address
+	 *  Instruction Format: 0b0000 0010 */
+	MSPI_voidSendData(0x02);
+
+	MSPI_voidSendData(copy_u16Address);
+
+	for(local_u8Counter = 0; local_u8Counter < )
+
+}
+
+u8 HEEPROM_u8ReadData(u16 copy_u16Address)
+{
+	u8 Local_u8Dummy=0xFF;
+	u8 Local_u8Data;
+
+	MDIO_voidSetPinValue(GPIOB,4,HIGH);
+	MDIO_voidSetPinValue(GPIOB,4,LOW);
+	MSPI_voidSendData(0x03);
+	MSPI_voidSendData(copy_u16Address);
+	MSPI_voidSendData(Local_u8Dummy);
+	Local_u8Data = MSPI_voidRecieveData();
+	MDIO_voidSetPinValue(GPIOB,4,HIGH);
+	return Local_u8Data;
+
+}
+

@@ -1,0 +1,16 @@
+/*
+ * SevenSegment_interface.h
+ *
+ *  Created on: Apr 19, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef SEVENSEGMENT_INTERFACE_H_
+#define SEVENSEGMENT_INTERFACE_H_
+
+#include "STD_TYPES.h"
+
+void HSSD_voidSSDInit(void);
+void HSSD_voidOneSevenSegment(u8 copy_u8Num);
+
+#endif /* SEVENSEGMENT_INTERFACE_H_ */

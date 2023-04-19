@@ -1,0 +1,30 @@
+/*
+ * DIO_intrerface.h
+ *
+ *  Created on: Apr 13, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef DIO_INTERFACE_H_
+#define DIO_INTERFACE_H_
+
+#include "STD_TYPES.h"
+
+/*================== Macros ==================*/
+#define GPIOA    0
+#define GPIOB    1
+#define GPIOC    2
+#define GPIOD    3
+
+#define OUTPUT   0
+#define INPUT    1
+
+#define HIGH     0
+#define LOW      1
+
+void MDIO_voidSetPinMode(u8 copy_u8PortId, u8 copy_u8PinId, u8 copy_u8PinMode);
+void MDIO_voidSetPortMode(u8 copy_u8PortId, u8 copy_u8PortMode);
+void MDIO_voidSetPinValue(u8 copy_u8PortId, u8 copy_u8PinId, u8 copy_u8PinValue);
+void MDIO_voidSetPortValue(u8 copy_u8PortId, u8 copy_u8Value);
+
+#endif /* DIO_INTERFACE_H_ */

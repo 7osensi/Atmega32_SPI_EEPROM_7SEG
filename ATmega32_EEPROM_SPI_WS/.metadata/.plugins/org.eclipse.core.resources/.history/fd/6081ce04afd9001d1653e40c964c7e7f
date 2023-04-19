@@ -1,0 +1,22 @@
+/*
+ * DIO_private.h
+ *
+ *  Created on: Apr 13, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef DIO_PRIVATE_H_
+#define DIO_PRIVATE_H_
+
+#define GPIO_BASE_ADDRESS	0x30
+
+typedef struct
+{
+	volatile u8	PIND;
+	volatile u8	DDRD;
+	volatile u8	PORTD;
+
+}DIO_t;
+
+
+#endif /* DIO_PRIVATE_H_ */

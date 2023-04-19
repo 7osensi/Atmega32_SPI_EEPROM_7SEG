@@ -1,0 +1,20 @@
+/*
+ * SSD_config.h
+ *
+ *  Created on: Apr 19, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef SSD_CONFIG_H_
+#define SSD_CONFIG_H_
+
+/*
+	_a_
+  f|_g_|b
+  e|_d_|c
+
+*/
+#define LED_A
+
+
+#endif /* SSD_CONFIG_H_ */

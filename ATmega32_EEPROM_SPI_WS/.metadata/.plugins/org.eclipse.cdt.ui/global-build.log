@@ -1,0 +1,3784 @@
+
+**** Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+
+Nothing to build for project Atmega32_EEPROM_SPI
+
+**** Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+
+Nothing to build for project Atmega32_EEPROM_SPI
+06:02:22 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_prog.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_prog.d" -MT"DIO_prog.o" -c -o "DIO_prog.o" "../DIO_prog.c"
+../DIO_prog.c:8:27: error: DIO_interface.h: No such file or directory
+../DIO_prog.c:10: error: expected ')' before 'copy_u8PortId'
+make: *** [DIO_prog.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+06:07:27 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Atmega32_EEPROM_SPI.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:00:22 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Atmega32_EEPROM_SPI.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:03:08 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidIntialize':
+../SPI_program.c:23: error: expected ')' before numeric constant
+../SPI_program.c:23: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:23: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:30: error: expected ')' before numeric constant
+../SPI_program.c:30: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:30: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:33: error: expected ')' before numeric constant
+../SPI_program.c:33: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:33: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:36: error: expected ')' before numeric constant
+../SPI_program.c:36: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:36: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:42: error: expected ')' before numeric constant
+../SPI_program.c:42: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:42: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:45: error: expected ')' before numeric constant
+../SPI_program.c:45: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:45: error: invalid type argument of '->' (have 'int')
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:05:33 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidIntialize':
+../SPI_program.c:23: error: expected ')' before numeric constant
+../SPI_program.c:23: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:23: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:30: error: expected ')' before numeric constant
+../SPI_program.c:30: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:30: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:33: error: expected ')' before numeric constant
+../SPI_program.c:33: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:33: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:36: error: expected ')' before numeric constant
+../SPI_program.c:36: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:36: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:42: error: expected ')' before numeric constant
+../SPI_program.c:42: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:42: error: invalid type argument of '->' (have 'int')
+../SPI_program.c:45: error: expected ')' before numeric constant
+../SPI_program.c:45: warning: type defaults to 'int' in declaration of 'type name'
+../SPI_program.c:45: error: invalid type argument of '->' (have 'int')
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:09:10 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./SPI_program.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Atmega32_EEPROM_SPI.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:03:39 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./SPI_program.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Atmega32_EEPROM_SPI.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:08:52 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./SPI_program.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Atmega32_EEPROM_SPI.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:09:37 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:09:41 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:10:25 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+../SPI_program.c:70: error: expected statement before ')' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:10:58 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:11:37 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+../SPI_program.c:70: error: expected statement before ')' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:11:39 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:12:17 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+../SPI_program.c: In function 'MSPI_voidRecieveData':
+../SPI_program.c:77: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:13:15 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+../SPI_program.c: In function 'MSPI_voidRecieveData':
+../SPI_program.c:77: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:14:31 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+../SPI_program.c: In function 'MSPI_voidRecieveData':
+../SPI_program.c:77: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:15:12 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:70: error: expected ')' before ';' token
+../SPI_program.c: In function 'MSPI_voidRecieveData':
+../SPI_program.c:77: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:15:41 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c: In function 'MSPI_voidSendData':
+../SPI_program.c:71: error: expected ')' before ';' token
+../SPI_program.c: In function 'MSPI_voidRecieveData':
+../SPI_program.c:77: error: expected ')' before ';' token
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:16:04 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./SPI_program.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o:(.init9+0x0): undefined reference to `main'
+make: *** [Atmega32_EEPROM_SPI.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:19:36 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:15:30: error: EEPROM_interface.h: No such file or directory
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:19:42 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    2060 bytes (6.3% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:32:12 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../EEPROM_program.c: In function 'HEEPROM_u8ReadData':
+../EEPROM_program.c:33: warning: control reaches end of non-void function
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    2152 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:15:43 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../EEPROM_program.c: In function 'HEEPROM_u8ReadData':
+../EEPROM_program.c:33: warning: control reaches end of non-void function
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    2152 bytes (6.6% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:05:33 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../EEPROM_program.c: In function 'HEEPROM_voidSend16Bytes':
+../EEPROM_program.c:74: error: expected expression before ')' token
+../EEPROM_program.c:76: error: expected expression before '}' token
+make: *** [EEPROM_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+00:38:01 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6212 bytes (19.0% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:00:40 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:22: warning: implicit declaration of function '_delay_ms'
+../main.c:50: warning: implicit declaration of function 'MDIO_voidSetPortValue'
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+./main.o: In function `main':
+../main.c:22: undefined reference to `_delay_ms'
+../main.c:51: undefined reference to `_delay_ms'
+make: *** [Atmega32_EEPROM_SPI.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:01:05 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:49: warning: implicit declaration of function 'MDIO_voidSetPortValue'
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:01:20 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:03:26 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:05:58 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:06:10 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:06:39 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:06:57 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:18: warning: unused variable 'Local_u8represent'
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6464 bytes (19.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:07:07 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:10:23 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=16000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:17:44 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:01:55 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:03:05 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6454 bytes (19.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:03:18 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6464 bytes (19.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:03:27 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:03:50 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:15:56 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6482 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:16:10 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:37:21 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6480 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:39:06 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c:68: error: conflicting types for 'MSPI_voidSendData'
+../SPI_interface.h:21: error: previous declaration of 'MSPI_voidSendData' was here
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:39:35 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:40:11 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../EEPROM_program.c: In function 'HEEPROM_u8ReadData':
+../EEPROM_program.c:83: warning: unused variable 'Local_u8Dummy'
+Finished building: ../EEPROM_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6462 bytes (19.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:40:23 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:42:28 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:18: warning: unused variable 'Local_u8represent'
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6464 bytes (19.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:43:01 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:44:27 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6474 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:46:13 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6480 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:02:57 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6480 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:03:03 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6480 bytes (19.8% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:05:09 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6576 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:05:17 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6576 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:05:44 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6576 bytes (20.1% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:09:16 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c:68: error: conflicting types for 'MSPI_voidSendData'
+../SPI_interface.h:21: error: previous declaration of 'MSPI_voidSendData' was here
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:09:19 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c:68: error: conflicting types for 'MSPI_voidSendData'
+../SPI_interface.h:21: error: previous declaration of 'MSPI_voidSendData' was here
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:09:22 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c:68: error: conflicting types for 'MSPI_voidSendData'
+../SPI_interface.h:21: error: previous declaration of 'MSPI_voidSendData' was here
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:09:25 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+../SPI_program.c:68: error: conflicting types for 'MSPI_voidSendData'
+../SPI_interface.h:21: error: previous declaration of 'MSPI_voidSendData' was here
+make: *** [SPI_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+03:09:28 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:49: warning: implicit declaration of function 'MDIO_voidSetPortValue'
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:10:28 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:10:43 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:11:12 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:47: warning: implicit declaration of function 'MDIO_voidSetPortValue'
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:11:15 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:47: warning: implicit declaration of function 'MDIO_voidSetPortValue'
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:13:11 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6824 bytes (20.8% Full)
+(.text + .data + .bootloader)
+
+Data:         18 bytes (0.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:14:30 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6454 bytes (19.7% Full)
+(.text + .data + .bootloader)
+
+Data:          8 bytes (0.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:29:01 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6642 bytes (20.3% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:54:16 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:40: warning: implicit declaration of function 'MDIO_voidSetPortValue'
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6916 bytes (21.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:54:56 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6908 bytes (21.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:57:03 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O1 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+../DIO_program.c: In function 'MDIO_u8GetPinValue':
+../DIO_program.c:112: warning: 'Local_u8PinValue' may be used uninitialized in this function
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O1 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O1 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O1 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    1580 bytes (4.8% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:57:22 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O1 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    1582 bytes (4.8% Full)
+(.text + .data + .bootloader)
+
+Data:         20 bytes (1.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:58:06 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:11:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6910 bytes (21.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:59:30 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6910 bytes (21.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+03:59:51 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6910 bytes (21.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:00:06 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6910 bytes (21.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:07:38 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:9:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:09:08 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:9:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:09:48 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+In file included from ../SevenSegment_program.c:9:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:09:51 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+In file included from ../SevenSegment_program.c:9:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:10:38 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:14: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:16: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:10:42 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:10:48 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:10:51 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:12:11 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:12:27 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:12:42 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:13:05 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:13:14 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:13:18 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+In file included from ../SevenSegment_program.c:9:
+../SevenSegment_interface.h:12: error: expected ')' before 'copy_u8Num'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: At top level:
+../SevenSegment_program.c:15: error: expected ')' before 'copy_u8Num'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:14:01 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+In file included from ../SevenSegment_program.c:8:
+../DIO_interface.h:23: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:24: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:25: error: expected ')' before 'copy_u8PortId'
+../DIO_interface.h:26: error: expected ')' before 'copy_u8PortId'
+../SevenSegment_program.c: In function 'HSSD_voidSSDInit':
+../SevenSegment_program.c:13: warning: implicit declaration of function 'MDIO_voidSetPortMode'
+../SevenSegment_program.c: In function 'HSSD_voidOneSevenSegment':
+../SevenSegment_program.c:17: warning: implicit declaration of function 'MDIO_voidSetPortValue'
+make: *** [SevenSegment_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:14:17 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+Finished building: ../SevenSegment_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:40: error: expected expression before 'u8'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:14:41 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'main':
+../main.c:40: error: expected expression before 'u8'
+make: *** [main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:14:47 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SevenSegment_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    6954 bytes (21.2% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:16:14 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SevenSegment_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SevenSegment_program.d" -MT"SevenSegment_program.o" -c -o "SevenSegment_program.o" "../SevenSegment_program.c"
+Finished building: ../SevenSegment_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SevenSegment_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7054 bytes (21.5% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:30:48 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+../SSD_program.c: In function 'HSSD_voidOneSevenSegment':
+../SSD_program.c:22: error: 'PORTC' undeclared (first use in this function)
+../SSD_program.c:22: error: (Each undeclared identifier is reported only once
+../SSD_program.c:22: error: for each function it appears in.)
+../SSD_program.c:22: error: too few arguments to function 'MDIO_voidSetPinValue'
+make: *** [SSD_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:31:23 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+../SSD_program.c: In function 'HSSD_voidOneSevenSegment':
+../SSD_program.c:22: error: 'PORTC' undeclared (first use in this function)
+../SSD_program.c:22: error: (Each undeclared identifier is reported only once
+../SSD_program.c:22: error: for each function it appears in.)
+make: *** [SSD_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:32:34 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SPI_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SPI_program.d" -MT"SPI_program.o" -c -o "SPI_program.o" "../SPI_program.c"
+Finished building: ../SPI_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7136 bytes (21.8% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:34:14 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7334 bytes (22.4% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:35:30 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7334 bytes (22.4% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:35:51 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7334 bytes (22.4% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:36:30 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7396 bytes (22.6% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:37:18 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7390 bytes (22.6% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:37:51 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7474 bytes (22.8% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:39:52 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7740 bytes (23.6% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:40:21 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7836 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:40:35 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7836 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:42:19 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7836 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:43:36 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7834 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+04:44:56 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7834 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:30:42 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7576 bytes (23.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:31:00 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7576 bytes (23.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:31:09 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7576 bytes (23.1% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:32:25 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7834 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:33:48 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../EEPROM_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"EEPROM_program.d" -MT"EEPROM_program.o" -c -o "EEPROM_program.o" "../EEPROM_program.c"
+In file included from ../EEPROM_program.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../EEPROM_program.c
+ 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7834 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:45:35 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7834 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:52:42 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7834 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:54:11 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7834 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:56:37 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7836 bytes (23.9% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:00:52 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7922 bytes (24.2% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:01:04 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7922 bytes (24.2% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:01:33 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7922 bytes (24.2% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:03:02 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../SSD_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SSD_program.d" -MT"SSD_program.o" -c -o "SSD_program.o" "../SSD_program.c"
+Finished building: ../SSD_program.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7922 bytes (24.2% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:09:36 **** Incremental Build of configuration Debug for project Atmega32_EEPROM_SPI ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../main.c
+ 
+Building target: Atmega32_EEPROM_SPI.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Atmega32_EEPROM_SPI.map -mmcu=atmega32 -o "Atmega32_EEPROM_SPI.elf"  ./DIO_program.o ./EEPROM_program.o ./SPI_program.o ./SSD_program.o ./main.o   
+Finished building target: Atmega32_EEPROM_SPI.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Atmega32_EEPROM_SPI.elf  >"Atmega32_EEPROM_SPI.lss"
+Finished building: Atmega32_EEPROM_SPI.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex Atmega32_EEPROM_SPI.elf  "Atmega32_EEPROM_SPI.hex"
+Finished building: Atmega32_EEPROM_SPI.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Atmega32_EEPROM_SPI.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    7922 bytes (24.2% Full)
+(.text + .data + .bootloader)
+
+Data:         28 bytes (1.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

@@ -1,0 +1,26 @@
+/*
+ * DIO_intrerface.h
+ *
+ *  Created on: Apr 13, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#ifndef DIO_INTRERFACE_H_
+#define DIO_INTRERFACE_H_
+
+/*================== Macros ==================*/
+#define GPIOA    0
+#define GPIOB    1
+#define GPIOC    2
+#define GPIOD    3
+
+#define OUTPUT   0
+#define INPUT    1
+
+#define HIGH     0
+#define LOW      1
+
+void MDIO_voidSetPinMode(u8 copy_u8PortId, u8 copy_u8PinId, u8 copy_u8PinMode);
+
+
+#endif /* DIO_INTRERFACE_H_ */

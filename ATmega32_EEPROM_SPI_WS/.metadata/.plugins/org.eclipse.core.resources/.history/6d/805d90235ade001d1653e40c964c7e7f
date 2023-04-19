@@ -1,0 +1,39 @@
+/*
+ * SevenSegment_program.c
+ *
+ *  Created on: Apr 19, 2023
+ *      Author: Hussein Mohamed
+ */
+
+#include "DIO_interface.h"
+#include "SSD_interface.h"
+#include "SSD_config.h"
+
+void HSSD_voidSSDInit(void)
+{
+	MDIO_voidSetPortMode(GPIOC, OUTPUT);
+}
+void HSSD_voidOneSevenSegment(u8 copy_u8Num)
+{
+	switch(copy_u8Num)
+	{
+		case'0':
+			MDIO_voidSetPinValue(SSD_PORT, 0);
+			break;
+		case'1':
+			MDIO_voidSetPortValue(PORTC, 1);	break;
+		case'2':
+			MDIO_voidSetPortValue(PORTC, 2);	break;
+		case'3':
+			MDIO_voidSetPortValue(PORTC, 3);	break;
+		case'4':
+			MDIO_voidSetPortValue(PORTC, 4);	break;
+		case'5':
+			MDIO_voidSetPortValue(PORTC, 5);	break;
+		case'6':
+			MDIO_voidSetPortValue(GPIOC, 6);	break;
+		case'7':
+			MDIO_voidSetPortValue(GPIOC, 7);	break;
+	}
+
+}
